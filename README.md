@@ -2,7 +2,7 @@
 
 Bulwark Explorer
 &middot;
-[![GitHub license](https://img.shields.io/github/license/bulwark-crypto/bulwark-explorer.svg)](https://github.com/bulwark-crypto/bulwark-explorer/blob/master/COPYING) [![Build Status](https://travis-ci.org/bulwark-crypto/bulwark-explorer.svg?branch=master)](https://travis-ci.org/bulwark-crypto/bulwark-explorer) [![Discord](https://img.shields.io/discord/374271866308919296.svg)](https://discord.me/bulwarkcrypto) [![GitHub version](https://badge.fury.io/gh/bulwark-crypto%2Fbulwark-explorer.svg)](https://badge.fury.io/gh/bulwark-crypto%2Fbulwark-explorer)
+[![GitHub license](https://img.shields.io/github/license/theaudaxproject/bulwark-explorer.svg)](https://github.com/theaudaxproject/bulwark-explorer/blob/master/COPYING) [![Build Status](https://travis-ci.org/theaudaxproject/bulwark-explorer.svg?branch=master)](https://travis-ci.org/theaudaxproject/bulwark-explorer) [![Discord](https://img.shields.io/discord/579535518233264148.svg)](https://discord.gg/2Dz3mjm) [![GitHub version](https://badge.fury.io/gh/bulwark-crypto%2Fbulwark-explorer.svg)](https://badge.fury.io/gh/bulwark-crypto%2Fbulwark-explorer)
 =====
 
 Simple cryptocurrency block explorer system.
@@ -18,16 +18,16 @@ https://nodejs.org/en/download/package-manager/
 
 https://yarnpkg.com/lang/en/docs/install/
 
-It is also required to have the Bulwark daemon running in the background. It is recommended to set this up before beginning to set up the explorer so that it syncs by the time you need it.
+It is also required to have the Audax daemon running in the background. It is recommended to set this up before beginning to set up the explorer so that it syncs by the time you need it.
 
 Our geniuses here at BulwarkCorp™ have put together a script to do this for you. Just run
 
-`bash script/bulwarkd_setup.sh`
+`bash script/audaxd_setup.sh`
 
-This will install the latest Bulwark wallet and create a rpc username/password before starting the daemon.
+This will install the latest Audax wallet and create a rpc username/password before starting the daemon.
 
 ## Install
-`git clone https://github.com/bulwark-crypto/bulwark-explorer.git` - copy repo to local folder.
+`git clone https://github.com/theaudaxproject/bulwark-explorer.git` - copy repo to local folder.
 
 `cd blockex` - change into project directory.
 
