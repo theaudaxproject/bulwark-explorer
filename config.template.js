@@ -24,7 +24,7 @@ const config = {
     timeout: 8000, // 8 seconds
   },
   coinDetails: {
-    name: 'Bulwark',
+    name: 'Audax',
     shortName: 'AUDAX',
     longName: 'Audax Cryptocurrency',
     coinNumberFormat: '0,0.0000',
