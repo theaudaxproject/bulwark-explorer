@@ -3,7 +3,7 @@
  */
 const config = {
   api: {
-    host: 'https://explorer.bulwarkcrypto.com',
+    host: 'https://explorer2.audaxproject.io',
     port: '3000',
     portWorker: '443',
     prefix: '/api',
@@ -19,16 +19,16 @@ const config = {
   rpc: {
     host: '127.0.0.1',
     port: '52541',
-    user: 'bulwarkrpc',
+    user: 'audaxrpc',
     pass: 'someverysafepassword',
     timeout: 8000, // 8 seconds
   },
   coinDetails: {
     name: 'Bulwark',
-    shortName: 'BWK',
-    longName: 'Bulwark Cryptocurrency',
+    shortName: 'AUDAX',
+    longName: 'Audax Cryptocurrency',
     coinNumberFormat: '0,0.0000',
-    websiteUrl: 'https://bulwarkcrypto.com/'
+    websiteUrl: 'https://audaxproject.io/'
   },
 
   ///////////////////////////////
@@ -39,7 +39,7 @@ const config = {
   },
   coinMarketCap: {
     api: 'http://api.coinmarketcap.com/v1/ticker/',
-    ticker: 'bulwark'
+    ticker: 'audax'
   },
   slack: {
     url: 'https://hooks.slack.com/services/A00000000/B00000000/somekindofhashhere',
